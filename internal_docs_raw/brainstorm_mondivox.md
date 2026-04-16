@@ -7,8 +7,6 @@ follow up of [[projets/vintage_hardware_rebuild]]
 - [ ] buy more
 - [ ] A plan of action
 
-## Buy more
-- https://www.ebay.fr/itm/135692033368?_skw=mondivox&itmmeta=01KP9K3E0F7WE8AA1TF5WW9XAH&hash=item1f97e01d58:g:lhkAAOSwoQBmyf84&itmprp=enc%3AAQALAAAAwGfYFPkwiKCW4ZNSs2u11xCvbkPKQPT%2F4zIXl5izoQiA9TysN4qWRyf3ctpQ1FssOhAzTaO0AlYfmLEHlbgIRAth%2B9rk6vIaIqWDISnREJRxobCwA9lLUj%2Bdamp8h3xn8te3r4HNhRnn%2FXbKiRBpwt%2BwRtUzyp%2FTJZ09%2BAGvVxhpFGoxwiVivbHr9H8UmAneqFECoBRsmd%2B66YhQoG8n%2BgPpp9DL3F1fcf1fn8jcODtbj2cQLIEdN6H54rRbbFf9tA%3D%3D%7Ctkp%3ABk9SR67gjbOyZw
 
 
 ## Parts

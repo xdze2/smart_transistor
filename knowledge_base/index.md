@@ -21,8 +21,12 @@
 - [[concept_hardware_mapping]] — translating analog controls to GPIO/ADC signals
 - [[concept_haptic_controls]] — high-quality knob/switch makers (Elma, Grayhill, NKK…)
 - [[concept_audio_software]] — Squeezelite-ESP32, Mopidy, Volumio, Raspotify, pleezer
+- [[concept_tangible_ui]] — TUI theory: physical objects as unmediated digital controls
+- [[concept_nfc_physical_tokens]] — NFC cards/tiles as phicons for station/playlist selection (Muse Blocks, Vinyl Emulator, Juuke…)
 
 ## Open Questions
 - [[question_brain_choice]] — ESP32 vs Raspberry Pi: which platform?
-- [[question_screen_sourcing]] — ultra-wide display for the Mondivox 705 aperture
-- [[question_streaming_service]] — Spotify vs Deezer vs internet radio; LMS dependency?
+- [[question_host_enclosure]] — vintage radio shell vs custom-built case
+- [[question_screen_sourcing]] — is a screen needed at all? if yes, what fits the aperture?
+- [[question_streaming_service]] — internet radio confirmed v1; Spotify/Deezer TBD
+- [[question_alarm_clock]] — in main project or a simpler standalone prototype?

@@ -2,23 +2,24 @@
 type: component
 ---
 
-# Component: Mondivox 705 (host radio)
+# Component: Mondivox 705 (candidate host radio)
 
-The vintage transistor radio serving as the physical shell for the build.
+A vintage transistor radio — current candidate for the physical shell. Not a locked choice.
 
 ## Facts
-- Screen space: approx 10.5 × 3 cm; usable control range ~7.5 cm wide (ultra-wide aspect ratio).
+- Screen aperture: approx 10.5 × 3 cm; usable control width ~7.5 cm (ultra-wide aspect ratio).
 - Existing controls:
   - 5 on/off toggle switches
-  - Frequency rotary knob (side) — has a mechanical index; goal: keep it and sync with OLED screen
+  - Frequency rotary knob (side) — has a mechanical index; candidate: keep it, sync with display
   - Band selector: 3-position switch (side)
   - Volume slider
   - 4 press buttons
-- Original speaker: 1W, 25Ω — retention TBD.
-- WWII/postwar-era radios may contain large capacitors holding lethal charge — must discharge before work.
+- Original speaker: 1W, 25Ω — retention to be decided in design phase.
+- Safety: postwar radios may contain large capacitors holding lethal charge — discharge before any work.
 
 ## Links
 - [[goal_retro_aesthetic]]
+- [[question_host_enclosure]]
 - [[concept_hardware_mapping]]
 - [[question_screen_sourcing]]
 - Source: `internal_docs_raw/brainstorm_mondivox.md`

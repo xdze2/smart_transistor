@@ -19,4 +19,5 @@ Sourcing physical controls that match the "heavy, intentional, mechanical" feel 
 ## Links
 - [[goal_analog_feel]]
 - [[concept_hardware_mapping]]
+- [[concept_tangible_ui]]
 - Source: `internal_docs_raw/brainstorm_vintage_hardware_rebuild.md`

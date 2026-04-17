@@ -7,12 +7,12 @@ type: question
 Which streaming service(s) to support, and via which software path?
 
 ## Facts
-- Internet radio streams: confirmed target, simplest to implement.
-- Spotify: possible via Raspotify (Pi) or LMS + Squeezelite (ESP32).
-- Deezer: possible via pleezer (Pi) or LMS (ESP32).
-- Local MP3 playback: mentioned as optional.
+- Internet connectivity is required — MP3-only is not a viable use case.
+- Internet radio streams: confirmed v1 target, simplest to implement.
+- Spotify/Deezer: nice-to-have; choice of service and implementation path TBD.
+- Local MP3: out of scope for v1.
 - ESP32 path requires self-hosted LMS Docker container for Spotify/Deezer — adds infrastructure dependency.
-- Final choice of service TBD.
+- Alarm clock: out of main scope; noted as a candidate for a simpler standalone project.
 
 ## Links
 - [[goal_simple_streaming]]

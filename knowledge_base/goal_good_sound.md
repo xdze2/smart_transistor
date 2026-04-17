@@ -7,9 +7,9 @@ type: goal
 The audio output should be hi-fi quality, not degraded by the digital conversion.
 
 ## Facts
-- The original speaker (1W, 25Ω) may be kept or replaced — undecided.
-- The Pi's onboard 3.5mm jack is noisy; an I2S DAC is needed for quality audio.
-- The wooden radio cabinet acts as a natural acoustic chamber — an asset.
+- Target: small portable speaker quality — enough for a quiet room, no stereo needed.
+- Speaker choice (original vs replacement) is a design-phase decision, not a spec constraint.
+- The wooden/plastic radio cabinet may act as a natural acoustic chamber — worth preserving if possible.
 - Lining the cabinet interior with foam reduces "boxiness".
 - EMI from Wi-Fi/ESP32 can introduce audible interference; shielded audio cables required.
 

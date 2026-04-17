@@ -31,7 +31,7 @@ When given a new source to ingest:
 2. Discuss key takeaways if useful
 3. Write or update relevant wiki pages (components, constraints, open questions, etc.)
 4. Update `knowledge_base/index.md`
-5. Append an entry to `knowledge_base/log.md`
+5. Append an entry to `knowledge_base/log.md` — wiki operations only (ingest/query/lint), not project decisions
 
 ### Query workflow
 

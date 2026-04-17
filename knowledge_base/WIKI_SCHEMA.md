@@ -8,9 +8,11 @@ Conventions for the `knowledge_base/` directory. Minimal for now — will evolve
 knowledge_base/
 ├── WIKI_SCHEMA.md     # this file
 ├── index.md           # catalog of all pages (LLM updates on every ingest)
-├── log.md             # append-only ingest/query log
+├── log.md             # append-only log of wiki operations only (ingest, query, lint)
 └── *.md               # topic pages
 ```
+
+`log.md` tracks what goes **into the wiki** — sources ingested, pages created or updated. It is not a project diary. Work sessions, purchases, and build decisions go in `project_logs/` (see `CLAUDE.md`).
 
 ## Page types (so far)
 
@@ -56,4 +58,6 @@ One line per page: `- [[page_name]] — one-line description`
 
 Append-only. Each entry: `## [YYYY-MM-DD] <type> | <title>`
 
-Types: `ingest`, `query`, `lint`, `decision`
+Types: `ingest`, `query`, `lint`
+
+Note: `decision` entries belong in `project_logs/`, not here.

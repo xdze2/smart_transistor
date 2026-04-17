@@ -6,7 +6,7 @@ Take an old transistor radio — the kind your grandparents ignored in the corne
 
 A DIY hardware project. The goal: a connected music player with physical controls, no phone required, that boots fast enough to feel like an appliance rather than a computer. Streams Spotify, Deezer, and/or internet radio. Configured once via Bluetooth, then left alone.
 
-The current host body is a **Mondivox 705**. It has good knobs.
+The current candidate host body is a **Mondivox 705**. It has good knobs. Host enclosure is not yet locked — a custom case is also on the table.
 
 ## What this is not
 
@@ -20,7 +20,7 @@ The current host body is a **Mondivox 705**. It has good knobs.
 - No app, no screen unlock, no notifications
 - Fast boot (target: under 5 seconds)
 - WiFi streaming: Spotify / Deezer / webradio
-- Bluetooth for initial setup only
+- Wi-Fi setup once via web UI or config file; no app needed after that
 - Fits inside the original case
 
 ## Repository structure

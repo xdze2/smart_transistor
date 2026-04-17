@@ -1,2 +1,3 @@
 external_docs_raw/*
 !external_docs_raw/README.md
+.DS_Store

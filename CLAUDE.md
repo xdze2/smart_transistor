@@ -45,6 +45,17 @@ When asked a design question:
 
 Human-readable. Explain decisions and their reasons. Should be usable by someone building the thing months later without remembering the context. Numbered for rough chronological order (`00_`, `10_`, etc.).
 
+## Session log
+
+At the end of each working session, before the conversation closes, ask:
+> "Should I write a session log to `project_logs/`?"
+
+If yes, create a file named `project_logs/YYYY-MM-DD_<short-slug>.md` covering: what happened, decisions made, files created/updated, next steps. Follow the format of existing logs in that directory.
+
 ## Writing style
 
 Dry. Lightly funny. This is a fun DIY project, not a corporate deliverable. No corporate filler ("leverage", "robust", "seamless"). Brevity over completeness. A single well-placed observation beats a paragraph of hedging.
+
+## Language
+
+Always write in English — including wiki pages, design docs, and all generated content. The user may write in French; always respond and produce output in English regardless.

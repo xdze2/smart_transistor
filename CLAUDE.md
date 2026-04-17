@@ -50,7 +50,7 @@ Human-readable. Explain decisions and their reasons. Should be usable by someone
 At the end of each working session, before the conversation closes, ask:
 > "Should I write a session log to `project_logs/`?"
 
-If yes, create a file named `project_logs/YYYY-MM-DD_<short-slug>.md` covering: what happened, decisions made, files created/updated, next steps. Follow the format of existing logs in that directory.
+If yes, create a file named `project_logs/YYYY-MM-DDTHHMMSSz_<short-slug>.md` (UTC timestamp, e.g. `2026-04-17T092738Z_spec_and_wiki`) covering: what happened, decisions made, files created/updated, next steps. Follow the format of existing logs in that directory.
 
 ## Writing style
 

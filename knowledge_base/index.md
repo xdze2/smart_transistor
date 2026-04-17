@@ -24,6 +24,9 @@
 - [[concept_tangible_ui]] — TUI theory: physical objects as unmediated digital controls
 - [[concept_nfc_physical_tokens]] — NFC cards/tiles as phicons for station/playlist selection (Muse Blocks, Vinyl Emulator, Juuke…)
 
+## Meta
+- [[meta_engineering_design_process]] — EDP/PDLC framework: the six stages of hardware design and how we adapt them here
+
 ## Open Questions
 - [[question_brain_choice]] — ESP32 vs Raspberry Pi: which platform?
 - [[question_host_enclosure]] — vintage radio shell vs custom-built case

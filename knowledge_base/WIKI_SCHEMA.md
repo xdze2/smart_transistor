@@ -22,6 +22,7 @@ knowledge_base/
 | Constraint | `constraint_<name>.md` | A hard or soft requirement shaping decisions — should link to the goal it serves |
 | Decision | `decision_<name>.md` | A choice made, with rationale — should link to goals and constraints it satisfies |
 | Open question | `question_<name>.md` | Something not yet resolved |
+| Meta | `meta_<name>.md` | Design process, methodology, and how-we-work notes — not about the product itself |
 
 Pages are atomic: one idea per page. Prefer many small pages over one large one.
 Not every page needs to fit a type. If it doesn't fit, just name it sensibly.

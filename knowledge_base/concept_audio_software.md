@@ -11,8 +11,8 @@ The software layer handling streaming, playback, and GPIO control.
 ### Spotify stack (Pi path)
 - **librespot:** open-source Spotify Connect client library (Rust). Reverse-engineered protocol; Premium required. Actively maintained by community. Spotify's ToS technically forbids it, but no enforcement action known. MIT license.
 - **raspotify:** thin systemd daemon wrapping librespot for headless Debian/Pi use. One-liner install. ARM64/armhf only — does **not** support ARMv6 (Pi Zero v1 is out). Intended for headless use; not a full audio OS.
-- **spotifyd:** alternative stripped-down librespot daemon; better suited for desktop OS setups.
-- **Reliability concern:** real-world reports of Pi Zero 2W + raspotify/librespot being unstable — 7/10 playback failures, service crashes, connect timeouts. May be a Zero 2W CPU headroom issue rather than a software fault.
+- **spotifyd:** alternative stripped-down librespot daemon; better suited for desktop OS setups. Reported ARM binary architecture mismatch on Pi 3 — may require compiling from source (slow, unreliable). Less battle-tested on Pi than raspotify.
+- **Reliability concern:** real-world reports of Pi Zero 2W + raspotify/librespot being unstable — 7/10 playback failures, service crashes, connect timeouts. May be a Zero 2W CPU headroom issue rather than a software fault. Separately confirmed working well on Pi 3 (Raspbian 64-bit, headless).
 
 ### Spotify stack (ESP32 path)
 - **Squeezelite-ESP32:** firmware turning ESP32 into a Squeezebox receiver; pairs with LMS server.
@@ -34,4 +34,5 @@ The software layer handling streaming, playback, and GPIO control.
 - Source: `external_docs_raw/librespot-orglibrespot Open Source Spotify client library.md`
 - Source: `external_docs_raw/dtcooperraspotify A Spotify Connect client that mostly Just Works™.md`
 - Source: `external_docs_raw/Raspberry Pi Zero 2 W as a Spotify Connect player. Does it work for you  rraspberry_pi.md`
+- Source: `external_docs_raw/Run Spotify on your Raspberry Pi. Play your Spotify library from your Pi  by Gerrit Stapper  NEW IT Engineering  Medium.md`
 - Source: `external_docs_raw/FinianLandesSpotifyEsp32 This is a library to connect to and control spotify using an esp.md`

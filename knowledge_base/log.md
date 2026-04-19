@@ -12,6 +12,9 @@ Added new category "Meta" (design process / methodology). Created [[meta_enginee
 ## [2026-04-19] query | Pi sleep/wake options
 Created [[concept_sleep_wake]]: four options (fake sleep, OS suspend, full shutdown, power hat). Options C and D ruled out. Option A recommended as starting point; Option B worth testing. Added GPIO wake trigger notes. Updated index.
 
+## [2026-04-19] ingest | Gerrit Stapper — Run Spotify on Raspberry Pi (Medium)
+Updated [[concept_audio_software]]: raspotify confirmed working on Pi 3 (64-bit headless); spotifyd noted as unreliable on Pi ARM (architecture mismatch, compile from source required).
+
 ## [2026-04-19] ingest | SpotifyEsp32 library (Web API controller for ESP32)
 Updated [[concept_audio_software]]: added SpotifyEsp32 entry — clarified it is a Web API *controller* (skip/play/volume), not an audio receiver; does not stream audio, no LMS needed. Updated [[question_brain_choice]]: noted hybrid angle (ESP32 as controller) but confirmed it doesn't solve standalone streaming. Source: `external_docs_raw/FinianLandesSpotifyEsp32...md`.
 

@@ -24,8 +24,13 @@
 - [[concept_tangible_ui]] — TUI theory: physical objects as unmediated digital controls
 - [[concept_nfc_physical_tokens]] — NFC cards/tiles as phicons for station/playlist selection (Muse Blocks, Vinyl Emulator, Juuke…)
 
+## Open Questions (hardware)
+- [[decision_drop_fm]] — keep or drop the FM analog circuit? (functional, independent, but different use case)
+
 ## Meta
 - [[meta_engineering_design_process]] — EDP/PDLC framework: the six stages of hardware design and how we adapt them here
+- [[meta_communication_goal]] — project goal: inspire people, tell the build story
+- [[meta_ai_assisted_design]] — project goal: experiment with AI as a design collaborator
 
 ## Open Questions
 - [[question_brain_choice]] — ESP32 vs Raspberry Pi: which platform?

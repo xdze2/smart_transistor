@@ -18,9 +18,11 @@ The computing unit running the audio software and GPIO control logic.
 
 **Raspberry Pi Zero 2W**
 - Boot time: 15–30 s (optimised with DietPi + read-only mode). Does **not** meet [[constraint_boot_time]].
-- Standalone: handles Spotify (Raspotify) or Deezer (pleezer) directly.
+- Standalone: handles Spotify via raspotify/librespot, Deezer via pleezer.
 - Fits in any vintage shell.
 - Paired with HiFiBerry DAC+ Zero or Pimoroni Pirate Audio.
+- **Reliability concern:** real-world reports of significant Spotify Connect instability on Zero 2W — frequent service crashes and playback failures. Possibly CPU headroom issue. Larger Pi (3B+, 4, 5) likely more stable but worse on boot time and power/heat.
+- raspotify does **not** support Pi Zero v1 (ARMv6). Zero 2W (ARMv8/arm64) is fine.
 
 ## Links
 - [[constraint_boot_time]]

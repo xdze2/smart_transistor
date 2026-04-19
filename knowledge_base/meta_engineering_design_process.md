@@ -20,9 +20,15 @@ Standard framework for hardware/product development, from problem definition to 
 
 ## Relevance to this project
 
-We are using a **lightweight Agile-like approach**: short exploration cycles, no formal Cahier des Charges up front, decisions recorded as they are made rather than pre-planned. The EDP framework provides useful vocabulary (prototype fidelity levels, V&V distinction, BOM) and a reference to check whether we are skipping stages that matter.
+We are using a **build-first, prototype-driven approach**: hands-on testing beats reading docs. If there is a path toward actually building or testing something, take it. Speculation and planning have diminishing returns fast.
 
-The V&V distinction is particularly useful: early hardware experiments are *verification* (does it work as spec'd?); user testing the finished radio will be *validation* (does it feel right?).
+**Core principle: decompose into the smallest testable step, then do it.** Don't plan for the end goal — find the next thing that can be wired up, flashed, or run on hardware that's already available.
+
+Concretely: a RPi 4 is on hand. Testing raspotify/librespot on it today is more valuable than another hour of comparison docs.
+
+The EDP framework provides useful vocabulary (prototype fidelity levels, V&V distinction, BOM) and a reference to check whether we are skipping stages that matter — but it should not drive the pace or sequence.
+
+The V&V distinction is useful for framing: early hardware experiments are *verification* (does it work?); user testing the finished radio will be *validation* (does it feel right?).
 
 ## Links
 

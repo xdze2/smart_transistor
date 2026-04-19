@@ -2,15 +2,16 @@
 type: constraint
 ---
 
-# Constraint: Boot Time ≤ 3 seconds
+# Constraint: Ready-to-Play Feel (Boot / Wake)
 
-The device must be ready to play within 1–3 seconds of power-on.
+The device should feel immediately available — no waiting, no staring at a boot screen.
 
 ## Facts
-- A 30–45s Linux boot destroys the "always-ready appliance" feeling.
-- ESP32 boots in 2–5s with no OS overhead — meets this constraint natively.
-- Raspberry Pi Zero 2W with DietPi + read-only mode + service pruning: ~15–20s. Does **not** meet the strict target.
-- Pi boot can be optimised further but requires significant effort.
+- The device is always plugged into 220V indoors. Battery operation is not a requirement.
+- **Sleep/wake is an accepted alternative to fast cold boot.** A deep sleep that wakes in 1–2s satisfies the "always-ready" feeling just as well as a 3s cold boot.
+- Cold boot of 15–20s (Pi path) is acceptable *if* the device is left in sleep mode between uses rather than hard power-cycled.
+- Hard power-cut + fast cold boot (ESP32 path) is still a valid approach, but no longer the only one.
+- A 30–45s full Linux boot from cold with no sleep mode would still break the illusion — that remains unacceptable.
 
 ## Links
 - [[goal_analog_feel]]

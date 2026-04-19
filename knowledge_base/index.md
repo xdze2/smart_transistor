@@ -23,6 +23,7 @@
 - [[concept_audio_software]] — Squeezelite-ESP32, Mopidy, Volumio, Raspotify, pleezer
 - [[concept_tangible_ui]] — TUI theory: physical objects as unmediated digital controls
 - [[concept_nfc_physical_tokens]] — NFC cards/tiles as phicons for station/playlist selection (Muse Blocks, Vinyl Emulator, Juuke…)
+- [[concept_sleep_wake]] — options for Pi sleep/wake: fake sleep, OS suspend, full shutdown (+ trade-offs)
 
 ## Open Questions (hardware)
 - [[decision_drop_fm]] — keep or drop the FM analog circuit? (functional, independent, but different use case)

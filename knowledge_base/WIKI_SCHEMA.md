@@ -60,4 +60,6 @@ Append-only. Each entry: `## [YYYY-MM-DD] <type> | <title>`
 
 Types: `ingest`, `query`, `lint`
 
+**Always append to the end of the file — never insert earlier.** Entries must remain in chronological order. If a session produces multiple entries, add them all at the bottom in the order they occurred.
+
 Note: `decision` entries belong in `project_logs/`, not here.

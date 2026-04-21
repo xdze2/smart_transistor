@@ -12,6 +12,9 @@ Added new category "Meta" (design process / methodology). Created [[meta_enginee
 ## [2026-04-19] query | Pi sleep/wake options
 Created [[concept_sleep_wake]]: four options (fake sleep, OS suspend, full shutdown, power hat). Options C and D ruled out. Option A recommended as starting point; Option B worth testing. Added GPIO wake trigger notes. Updated index.
 
+## [2026-04-22] ingest | Connecting Devices to Spotify — Gemini overview
+Updated [[concept_audio_software]]: added top-level three-path overview (eSDK, librespot, Web API); clarified Spotify Connect is cloud-based (phone sends commands, not audio); named eSDK as the commercial-only official path.
+
 ## [2026-04-19] ingest | Gerrit Stapper — Run Spotify on Raspberry Pi (Medium)
 Updated [[concept_audio_software]]: raspotify confirmed working on Pi 3 (64-bit headless); spotifyd noted as unreliable on Pi ARM (architecture mismatch, compile from source required).
 

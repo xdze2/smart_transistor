@@ -8,6 +8,13 @@ The software layer handling streaming, playback, and GPIO control.
 
 ## Facts
 
+### Spotify integration — three paths (overview)
+- **eSDK (Spotify Embedded SDK):** official C library used by Bose, Sonos, etc. Handles streaming, DRM, ZeroConf. Restricted to approved commercial partners — not accessible for personal/DIY projects.
+- **librespot / raspotify (DIY path):** open-source reverse-engineered implementation. Device appears as a Spotify Connect receiver. Audio streams from Spotify's servers directly to the device — the phone is just a remote, not the audio source. **This is the path for this project.**
+- **Web API (controller path):** controls playback on another device. No audio streaming. Useful for custom remotes (e.g. ESP32 with buttons).
+- All hardware streaming paths require **Spotify Premium**.
+- Spotify Connect = cloud-based; unlike Bluetooth, the phone sends commands, not audio.
+
 ### Spotify stack (Pi path)
 - **librespot:** open-source Spotify Connect client library (Rust). Reverse-engineered protocol; Premium required. Actively maintained by community. Spotify's ToS technically forbids it, but no enforcement action known. MIT license.
 - **raspotify:** thin systemd daemon wrapping librespot for headless Debian/Pi use. One-liner install. ARM64/armhf only — does **not** support ARMv6 (Pi Zero v1 is out). Intended for headless use; not a full audio OS.
@@ -36,3 +43,4 @@ The software layer handling streaming, playback, and GPIO control.
 - Source: `external_docs_raw/Raspberry Pi Zero 2 W as a Spotify Connect player. Does it work for you  rraspberry_pi.md`
 - Source: `external_docs_raw/Run Spotify on your Raspberry Pi. Play your Spotify library from your Pi  by Gerrit Stapper  NEW IT Engineering  Medium.md`
 - Source: `external_docs_raw/FinianLandesSpotifyEsp32 This is a library to connect to and control spotify using an esp.md`
+- Source: `external_docs_raw/Connecting Devices to Spotify - Google Gemini.md`
